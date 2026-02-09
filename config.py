@@ -1,0 +1,13 @@
+import os
+
+LARGURA = 640
+ALTURA = 480
+BRANCO = (255, 255, 255)
+PRETO = (0, 0, 0)
+CINZA = (128, 128, 128)
+CINZA_CLARO =(200, 200, 200)
+
+DIRETORIO_PRINCIPAL = os.path.dirname(__file__)
+DIRETORIO_IMAGENS = os.path.join(DIRETORIO_PRINCIPAL, 'imagens')
+DIRETORIO_SONS = os.path.join(DIRETORIO_PRINCIPAL, 'sons')
+DIRETORIO_FONTE = os.path.join(DIRETORIO_PRINCIPAL, 'fonte')
